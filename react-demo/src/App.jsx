@@ -1,5 +1,6 @@
-import Greet from './components/Greet';
-import Add from './components/Add';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 // const App = () => {
 //   return <section>Hello world</section>
 // }
@@ -8,7 +9,9 @@ import Add from './components/Add';
 function App() {
   return (
     <div>
-      <Greet />
+      <Header />
+      <Main />
+      <Footer />
     </div>
   )
 }
