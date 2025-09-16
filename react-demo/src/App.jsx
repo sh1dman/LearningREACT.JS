@@ -1,6 +1,6 @@
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import WelcomeMessage from './componentschallenge2/WelcomeMessage';
+import JSXRules from './componentschallenge2/JSXRules';
+
 // const App = () => {
 //   return <section>Hello world</section>
 // }
@@ -9,9 +9,8 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <Header />
-      <Main />
-      <Footer />
+      <WelcomeMessage />
+      <JSXRules />
     </div>
   )
 }
